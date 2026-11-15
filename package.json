@@ -1,0 +1,38 @@
+{
+  "name": "aigc-ui-redesign",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AIGC 实训平台前端改版预览项目（独立项目，不依赖原 ui/）",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5180",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5180"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "7.0.1",
+    "ant-design-vue": "4.2.6",
+    "axios": "1.21.1",
+    "dayjs": "1.11.23",
+    "dompurify": "^3.3.3",
+    "echarts": "^5.5.1",
+    "js-base64": "^3.9.6",
+    "js-cookie": "^3.0.8",
+    "js-md5": "^0.8.3",
+    "longze-vue3-video-player": "^1.1.7",
+    "marked": "^15.0.12",
+    "pinia": "3.0.4",
+    "vue": "3.5.45",
+    "vue-cropper": "^1.1.1",
+    "vue-router": "4.6.4",
+    "vue-simple-uploader": "^1.0.3",
+    "vue-ueditor-wrap": "^3.0.8",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.11",
+    "less": "^4.9.1",
+    "sass": "1.108.2",
+    "vite": "7.3.8"
+  }
+}

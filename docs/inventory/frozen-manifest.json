@@ -1,0 +1,734 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-13",
+  "source": "../ui/src",
+  "target": "./src",
+  "rule": "F1/F2 必须与 source 逐字节一致（SHA256 校验）；ADAPTER 由新项目按同名同路径重写，不参与哈希校验",
+  "files": [
+    {
+      "path": "src/api/apt/aiAssistant.js",
+      "group": "F1",
+      "sha256": "0b8e2f6b93bb4653f06b153635802f573e0388a526902e32664c3453d365673e"
+    },
+    {
+      "path": "src/api/apt/assign.js",
+      "group": "F1",
+      "sha256": "0c7311be753595144d78a3ff3a25ebb151943fb931df5d5f0212035c6593aae3"
+    },
+    {
+      "path": "src/api/apt/categories.js",
+      "group": "F1",
+      "sha256": "b1ff4bae263b7b3d257aa8fdd88e3899da209622657fa9cc531b019cf2f03763"
+    },
+    {
+      "path": "src/api/apt/classAssign.js",
+      "group": "F1",
+      "sha256": "35817d42b671e3180f87bc0ce265663da0db29bb3b4c588c513bc1c8cec590ec"
+    },
+    {
+      "path": "src/api/apt/classQuota.js",
+      "group": "F1",
+      "sha256": "671f727212c023ec57d5ee2eb794e13063a0274e7465bd6667419d15a8694b14"
+    },
+    {
+      "path": "src/api/apt/config.js",
+      "group": "F1",
+      "sha256": "c7bae9b39708ebc15350119c6c6eb91b7b40568dcf8d99c1de51811c8e28c4cd"
+    },
+    {
+      "path": "src/api/apt/courseCreation.js",
+      "group": "F1",
+      "sha256": "019ff365947d62e225710dd9a06f64535cc3a41815c84ee311dec3839fee6759"
+    },
+    {
+      "path": "src/api/apt/coursePromptRule.js",
+      "group": "F1",
+      "sha256": "f5bfc3a3d45f67ae3f8c944e5f29e3e4b61c332a45e231b17cb3f59b2912ac40"
+    },
+    {
+      "path": "src/api/apt/coursePromptTemplate.js",
+      "group": "F1",
+      "sha256": "e6153146433be1c7c2e8d6effdc9556e3896b8b6ebe0213cbbcf4d98ea73d668"
+    },
+    {
+      "path": "src/api/apt/knowledge.js",
+      "group": "F1",
+      "sha256": "c1570457f8fee427cedb0b640d6b8697dd2fe9ef21cecb663c3cb1b847643818"
+    },
+    {
+      "path": "src/api/apt/knowledge_file.js",
+      "group": "F1",
+      "sha256": "f4e9ca2087ddc62b6994871bb29dca7e68f8ace05d7352e8ef88a949206808f5"
+    },
+    {
+      "path": "src/api/apt/modeUserUsage.js",
+      "group": "F1",
+      "sha256": "29101fabadc7f2e04561dd7280ff467b35e021ab6d203711765460fcff997b30"
+    },
+    {
+      "path": "src/api/apt/modeUserUsageArchive.js",
+      "group": "F1",
+      "sha256": "ff3229d6badd203e7459bd661c02988bef905f205d22d60047573c8d8b291b4a"
+    },
+    {
+      "path": "src/api/apt/modeUserUsageStatistics.js",
+      "group": "F1",
+      "sha256": "16deb95b81a7d75fc2f05f31e9a80ffb60ecf69ae3e5abd0eae68c8b935b2345"
+    },
+    {
+      "path": "src/api/apt/model.js",
+      "group": "F1",
+      "sha256": "5b2a0b54a8154e76a962a51e4a771298f2c8acd3c2453c059f42d0eaaaee58c5"
+    },
+    {
+      "path": "src/api/apt/prompts.js",
+      "group": "F1",
+      "sha256": "7da55d33716e14b78ca142d512efc6d125d25df9645088326608a6b4775ccc89"
+    },
+    {
+      "path": "src/api/apt/questionGen.js",
+      "group": "F1",
+      "sha256": "e79cdb0457ded3e700b9c1578ba0b17d50d948dc94318961383bdae0aed2e846"
+    },
+    {
+      "path": "src/api/apt/roleQuota.js",
+      "group": "F1",
+      "sha256": "b865f178b5febc03a38bb1a19e1b8a42fdb7c1d4fa9172e03e8c3038ea688cb2"
+    },
+    {
+      "path": "src/api/apt/roles_mode.js",
+      "group": "F1",
+      "sha256": "97f949e2acc640ab17b1fd25c53321a4bbf9f65a58bd79ef15ded875c2bba727"
+    },
+    {
+      "path": "src/api/apt/sessionProjects.js",
+      "group": "F1",
+      "sha256": "8f1742f0f9576eb5e9704086c40314af997ee050303cb1392b9deb479aad4abf"
+    },
+    {
+      "path": "src/api/apt/sysRole.js",
+      "group": "F1",
+      "sha256": "bfd5ae9aec91f6b9dd6da369246a3e0b3473d5a388e8ecc2f549c8165a8b5f24"
+    },
+    {
+      "path": "src/api/apt/tokenLog.js",
+      "group": "F1",
+      "sha256": "0aa1bb2be348302b278026ed9e83670dc8c9f5a0e81fd491cd9dbeeaf86469a1"
+    },
+    {
+      "path": "src/api/apt/userBan.js",
+      "group": "F1",
+      "sha256": "87854ce8fa7dd0b095150dea5c87f8c4aea8018aef951a8cae4084494cb4e65f"
+    },
+    {
+      "path": "src/api/apt/userQuota.js",
+      "group": "F1",
+      "sha256": "ce3aa41702a255e064a30025f9f02ae48a77ba80172de7b4b0388c7ebe07e3cb"
+    },
+    {
+      "path": "src/api/apt/vectorDocuments.js",
+      "group": "F1",
+      "sha256": "984bad92c47d473dd61fc0bfbfe8ff7f8ab09fbf2d0733ef19afc3393b169872"
+    },
+    {
+      "path": "src/api/cloud/disk.js",
+      "group": "F1",
+      "sha256": "223ff5d9cd8f361f332729f20023c509681544f5aa4c3be4ebf89c8d9550f599"
+    },
+    {
+      "path": "src/api/cloud/file.js",
+      "group": "F1",
+      "sha256": "0ec57c70661d201570e2263a0129e0c022039b527fafdd0295706f0f8b33700f"
+    },
+    {
+      "path": "src/api/cloud/lock.js",
+      "group": "F1",
+      "sha256": "25e2eaf0ac6ec63ebf017f44ad1434536399ae1f523451e0e85a8d0d0789e62c"
+    },
+    {
+      "path": "src/api/cloud/share.js",
+      "group": "F1",
+      "sha256": "992c25db7289a93049e735a48780b5183ac8b2aa4329370f133c05b685243cb1"
+    },
+    {
+      "path": "src/api/cloud/shareUser.js",
+      "group": "F1",
+      "sha256": "5e7f7b7ac455e9f5e29522b7871aa6b42ade2bf2d7cb83479e679623d73ce898"
+    },
+    {
+      "path": "src/api/course/arrange.js",
+      "group": "F1",
+      "sha256": "2a5be8d7a72a8629faaf2aea37978b914a70c90a6757389f1801f3bf5f3e52ef"
+    },
+    {
+      "path": "src/api/course/assign.js",
+      "group": "F1",
+      "sha256": "ff4c14668bb5fc2ffc163324d12c70598b67d1a88c81398e206b85a4859f6c43"
+    },
+    {
+      "path": "src/api/course/chapter.js",
+      "group": "F1",
+      "sha256": "12d82f6aebcb8d96ff0eb31551fdb9450a6501cf450b6e60626b1dbf2c6bb781"
+    },
+    {
+      "path": "src/api/course/chapterContent.js",
+      "group": "F1",
+      "sha256": "53a14b02f7bf2a8f3e8ef36d3c54816b1c4268056d0a221f8382aaf31c1d661b"
+    },
+    {
+      "path": "src/api/course/config.js",
+      "group": "F1",
+      "sha256": "ea23d25a3ed32237720c4f28bcf773ff77417fd79f7a4e3f10a4fc918cd1f940"
+    },
+    {
+      "path": "src/api/course/course.js",
+      "group": "F1",
+      "sha256": "6e38a3fb0e73254fb53cdb73fe7097d8b4f3bf828b4d2c27d01be87fc256bda5"
+    },
+    {
+      "path": "src/api/course/file.js",
+      "group": "F1",
+      "sha256": "b472f494d9d862572de73fca23c30b672bd1d4b983d6722891544a037a5a8521"
+    },
+    {
+      "path": "src/api/course/relation.js",
+      "group": "F1",
+      "sha256": "0106442b98129635678bed49bf955c7f722fd78281a37533f5953471227dbbed"
+    },
+    {
+      "path": "src/api/exam/aiExam.js",
+      "group": "F1",
+      "sha256": "766e7737a379102a545dbbd56947392835b2dee18459b24a1b33b8264f244b6d"
+    },
+    {
+      "path": "src/api/exam/exam.js",
+      "group": "F1",
+      "sha256": "b52e7f1e68dff6d2cf7c6f2626ec7f91d0f31a2c19cd45d50f3c61de11e62aaa"
+    },
+    {
+      "path": "src/api/exam/examGrade.js",
+      "group": "F1",
+      "sha256": "c0991aab147b4401c90d340fab252a7327623df72eb154af242a6422ff5a4603"
+    },
+    {
+      "path": "src/api/exam/examGradeDetail.js",
+      "group": "F1",
+      "sha256": "478faf777588f53b58c5ee7a21e743b3052a3199f469dd066479f52ec121f69d"
+    },
+    {
+      "path": "src/api/exam/homework.js",
+      "group": "F1",
+      "sha256": "2849ceeecf62af8f2bd1ab1949cf7ba385619f9536e6d17e4f7719526c0c5b1a"
+    },
+    {
+      "path": "src/api/exam/paper.js",
+      "group": "F1",
+      "sha256": "c0058f4531dac3055e27f8b21e26f938502f7c3ce491e2e47aa8f234b7d87d71"
+    },
+    {
+      "path": "src/api/exam/paperConfig.js",
+      "group": "F1",
+      "sha256": "693cd7bc14e098ee3265b724e5c06d196f806e5a62d44d83e83c5d9ddf5f72d3"
+    },
+    {
+      "path": "src/api/exam/paperQuestion.js",
+      "group": "F1",
+      "sha256": "604817967d43430abe849e090fcd6119796ada6b086767ae6b005dc5f7b429e1"
+    },
+    {
+      "path": "src/api/exam/question.js",
+      "group": "F1",
+      "sha256": "77be3cbd6a3e966c253face3cbbfd0c2e642bdaf5e3cf16804cb036a7893ae55"
+    },
+    {
+      "path": "src/api/forum/comments.js",
+      "group": "F1",
+      "sha256": "2faaa38f3b80d7321d7ee6bdc3947dc000db28749ba46f516bf594cf5c743ffc"
+    },
+    {
+      "path": "src/api/forum/posts.js",
+      "group": "F1",
+      "sha256": "066ca676c7e7eaaebadf3497ba2a33aac5ddb1633ccce8eaac49c0db236d8452"
+    },
+    {
+      "path": "src/api/graph/graph.js",
+      "group": "F1",
+      "sha256": "b65a6eb1223780e9c991817a541dfa71f5e7bb92ad0db3a21c91d0ac57f6fff7"
+    },
+    {
+      "path": "src/api/kube/auth.js",
+      "group": "F1",
+      "sha256": "0370ed635c4059fecdf539ec8f9ba363f6244a6b5d3a1887b068aec0e995abcb"
+    },
+    {
+      "path": "src/api/kube/classUsage.js",
+      "group": "F1",
+      "sha256": "3c85a29da52054e068b1c58c4d7b0038e1f54db7098731a5256568410d783c11"
+    },
+    {
+      "path": "src/api/kube/container.js",
+      "group": "F1",
+      "sha256": "ffa5ef0e9087a34fe84b03cb82c3c04e9c940863b0f346e1f45aa348684a9858"
+    },
+    {
+      "path": "src/api/kube/dockerContainer.js",
+      "group": "F1",
+      "sha256": "6b43a63a9c455ed98ddf5fa8e186e9957bc807aab51c5ab18ea22da430d0787b"
+    },
+    {
+      "path": "src/api/kube/image.js",
+      "group": "F1",
+      "sha256": "ed7ca06fb8e6ddc5b390de5139f2121ea39c161ce0bf3646710f61d97b0ec62d"
+    },
+    {
+      "path": "src/api/kube/imageCommit.js",
+      "group": "F1",
+      "sha256": "f19ee075da8b1757dae3ad086ef7f2fd2f8d3b8c32a8549cebd6c2d3b8145f27"
+    },
+    {
+      "path": "src/api/kube/notebook.js",
+      "group": "F1",
+      "sha256": "22751b1b739f0ee642b531444acaa7c1e5b0ca5ed59b38a6a725a751b34ab8fb"
+    },
+    {
+      "path": "src/api/kube/privateContainer.js",
+      "group": "F1",
+      "sha256": "14734f6d4b3cf3f19ac01f6db3b73e15ae95cd758a73bc790c390a00a924d980"
+    },
+    {
+      "path": "src/api/kube/resource.js",
+      "group": "F1",
+      "sha256": "a194847f7eb8736a924a86951b8d394b448d73338cf55c4cdd2e642684a43561"
+    },
+    {
+      "path": "src/api/kube/resourceAllocation.js",
+      "group": "F1",
+      "sha256": "6c974188bda77a10e0f50f391e28e7b7a2220c5dbe6dc5fee10ff3f87a44074e"
+    },
+    {
+      "path": "src/api/kube/resourceBan.js",
+      "group": "F1",
+      "sha256": "9ff5fa985cb3b0d9691d892076f318285f405ccb6f679ad78436391f928219ba"
+    },
+    {
+      "path": "src/api/kube/scnetContainer.js",
+      "group": "F1",
+      "sha256": "cc3483731129fbe454509339b8475545e97b6008470da4bd39f85f70c689197c"
+    },
+    {
+      "path": "src/api/kube/scnetImage.js",
+      "group": "F1",
+      "sha256": "df91e37e0b600ddbceeac2c26aca767e222d20ff0099eff08b3c4bafa5658334"
+    },
+    {
+      "path": "src/api/kube/scnetPrivateContainer.js",
+      "group": "F1",
+      "sha256": "9e622ade65778a95be571e6622d0c2e6a9eb40ff2da45fbc586b9f799a73ba4a"
+    },
+    {
+      "path": "src/api/kube/scnetPrivateNotebook.js",
+      "group": "F1",
+      "sha256": "e54048dd5265bab1b0282ccdf1aa12b0b80a6ea2d1ed9fb05a59970b2b83df03"
+    },
+    {
+      "path": "src/api/kube/serverAllocation.js",
+      "group": "F1",
+      "sha256": "df569a6cd594b45afc71b0769faeaa7b348d374e2a9f34dfbc300e5eff66b16e"
+    },
+    {
+      "path": "src/api/kube/serverInfo.js",
+      "group": "F1",
+      "sha256": "daa33da273fbe3ee901103fa07f5b4e2c74fdb1b6ff54efa612d94eaaad8f9c2"
+    },
+    {
+      "path": "src/api/kube/tool.js",
+      "group": "F1",
+      "sha256": "49c4aa9c46618c74c3207d122f14aac2eba1ce8c62c1dbca2a190dc1428c819f"
+    },
+    {
+      "path": "src/api/learning/file.js",
+      "group": "F1",
+      "sha256": "e11de24fb53c6355420e47669efa2175fe7bd4f2899c551b94545b848c7341be"
+    },
+    {
+      "path": "src/api/learning/note.js",
+      "group": "F1",
+      "sha256": "2d7be19a77842c64a936894d2f92bd144771e9177ff3a533dc527cd8e02081d1"
+    },
+    {
+      "path": "src/api/learning/record.js",
+      "group": "F1",
+      "sha256": "026bf1c18f58f2dec4f5b65542529bc4733400a5236dc51b22f4bb642494880e"
+    },
+    {
+      "path": "src/api/learning/report.js",
+      "group": "F1",
+      "sha256": "9b90683db934e69243180683c463304980033f902fe838518d29edf2e5729ac8"
+    },
+    {
+      "path": "src/api/learning/schedule.js",
+      "group": "F1",
+      "sha256": "31fd5255253963c58aca12074d835de81e204c3ce05d85007391622544bb16b3"
+    },
+    {
+      "path": "src/api/learning/scheduleItem.js",
+      "group": "F1",
+      "sha256": "361dad4cac3e627c8bcb72810cf76d17b748004efb46c33c3577d76e6ccbecab"
+    },
+    {
+      "path": "src/api/liblib/auth.js",
+      "group": "F1",
+      "sha256": "fdaf54763851c7f0199836d9da9a5cde5085f38d19b580ffdf030c51464f048f"
+    },
+    {
+      "path": "src/api/liblib/img.js",
+      "group": "F1",
+      "sha256": "0977a845f4ca4d3a7735ee1eb8ddb6e63560049b472eab4f46846fe202ac5955"
+    },
+    {
+      "path": "src/api/liblib/model.js",
+      "group": "F1",
+      "sha256": "f7b6cbd9dad83009d84eaea1693719792e12dbe7762feccbcf290a3c66f67aa6"
+    },
+    {
+      "path": "src/api/liblib/vae.js",
+      "group": "F1",
+      "sha256": "088509cec07c78a648deff151516e83d193d7c27a9b260c2156c978a3cb1c4da"
+    },
+    {
+      "path": "src/api/login.js",
+      "group": "F1",
+      "sha256": "f5a8425395e7a0f4395cec8e121e13ac54333b69c6f47fbf64ddd940b57d1848"
+    },
+    {
+      "path": "src/api/menu.js",
+      "group": "F1",
+      "sha256": "d966ab4fa6e95cad1c1eb5b3e38007ec92187ae74df1b7d7a1f6d9fa923168be"
+    },
+    {
+      "path": "src/api/monitor/cache.js",
+      "group": "F1",
+      "sha256": "51e19a745fb0af583b65a88a895d55d945844334eaae677e46ebd525c7d07a52"
+    },
+    {
+      "path": "src/api/monitor/job.js",
+      "group": "F1",
+      "sha256": "a7c2f97ec6316cd535a914faeee364b30526cf73d0e3781827e27e8f689b3ed4"
+    },
+    {
+      "path": "src/api/monitor/jobLog.js",
+      "group": "F1",
+      "sha256": "064caee5d44c46250a389d200981993c4f4292d2ee6de0d2feef0c44288ab33b"
+    },
+    {
+      "path": "src/api/monitor/logininfor.js",
+      "group": "F1",
+      "sha256": "d433ef0932b0249a561eaf08c683b13dec63876ba7e81af19c891f6b1cf62d64"
+    },
+    {
+      "path": "src/api/monitor/online.js",
+      "group": "F1",
+      "sha256": "9e3cf87d0cc57a62f9ddb581223fb928d7e9685e1834790e35c9aa4a0999d4e2"
+    },
+    {
+      "path": "src/api/monitor/operlog.js",
+      "group": "F1",
+      "sha256": "2329e2beb29be7ba3eb96f291592fc7b8668eb450bfae81f752a3c6ee5e724dc"
+    },
+    {
+      "path": "src/api/monitor/server.js",
+      "group": "F1",
+      "sha256": "2f47f8c7027f01001b226bf92b0c897db6b59b3d32b6318a1e797246e19f1acb"
+    },
+    {
+      "path": "src/api/system/analysis/dataAnalysis.js",
+      "group": "F1",
+      "sha256": "5e296d5e2dd29eab7538189e2bf4356ee0889a497f65986e89cccbe764aecd6a"
+    },
+    {
+      "path": "src/api/system/clazz/teacherStudent.js",
+      "group": "F1",
+      "sha256": "282830fd8297ab61407febc05791d806e1fd260c9cc13e2e82c9e361c4165c1f"
+    },
+    {
+      "path": "src/api/system/config.js",
+      "group": "F1",
+      "sha256": "8da11bde6f5dbe8b189816dcd8d1c5d8cd18823a6a288d45b8b80d4b09115210"
+    },
+    {
+      "path": "src/api/system/dept.js",
+      "group": "F1",
+      "sha256": "dafe003f5d3800f884d40885ead7c9ca9691c0e3042184211580f547d66a3600"
+    },
+    {
+      "path": "src/api/system/dict/data.js",
+      "group": "F1",
+      "sha256": "6def8190755a899f6560d02d8671ffa2983ec31dd949b43fd9e307f1e6b16188"
+    },
+    {
+      "path": "src/api/system/dict/type.js",
+      "group": "F1",
+      "sha256": "2aa16217b8158c86677051a99f360e090ef45e0ac32c533098c32292b8177860"
+    },
+    {
+      "path": "src/api/system/label.js",
+      "group": "F1",
+      "sha256": "cb1b544c737aa3ea06adf7483d45f8f89089410a7b39272bbab436d56dfa1898"
+    },
+    {
+      "path": "src/api/system/menu.js",
+      "group": "F1",
+      "sha256": "f7686dc0c47fdf4d21498d0372a3276cbb61ce732165e9ba98be9105762e2732"
+    },
+    {
+      "path": "src/api/system/notice.js",
+      "group": "F1",
+      "sha256": "bfe044e43f9a10d1076b814710a13215f809f04df1c1774288ec62c44dd89ca2"
+    },
+    {
+      "path": "src/api/system/portal.js",
+      "group": "F1",
+      "sha256": "9a24110c369bdf4d511c31dd47514bdbbea7a244a4214951aad490c9bdc554e3"
+    },
+    {
+      "path": "src/api/system/post.js",
+      "group": "F1",
+      "sha256": "adf958a0cec7caf996fc6850b02e5e626646cd7cde0f240e2e1e0776338f33f8"
+    },
+    {
+      "path": "src/api/system/role.js",
+      "group": "F1",
+      "sha256": "5f087d90810fb15b21222d5961e1c9ae3df2f29c632cb112aafc5d0142fd871d"
+    },
+    {
+      "path": "src/api/system/user.js",
+      "group": "F1",
+      "sha256": "41cf97b6744272dc2d072f503b50cc630d012bdea8d93fb3fe731f12a8a2bc80"
+    },
+    {
+      "path": "src/api/terminal/terminal.js",
+      "group": "F1",
+      "sha256": "7c1c9f41e6a7439cb66cec793c23b8cfb27a5c4f8f77f7c38b8ff1ea01b13deb"
+    },
+    {
+      "path": "src/api/tool/gen.js",
+      "group": "F1",
+      "sha256": "123eecddfc6e543c2700662169526b523527c47fb134f448c538b430389f07a6"
+    },
+    {
+      "path": "src/utils/aigc.js",
+      "group": "F2",
+      "sha256": "b360e3cb5d01f83ef0e399a8ba8211e83592925b4c279c2cd6aacd98596a907b"
+    },
+    {
+      "path": "src/utils/auth.js",
+      "group": "F2",
+      "sha256": "37fc40e3038d25d4d3adb990d01fc9b36f2dc430b025639742edb0115e53d096"
+    },
+    {
+      "path": "src/utils/chatDebugger.js",
+      "group": "F2",
+      "sha256": "187b40e85b85ebca2a34407c94ca215ab40d48998080422cb0d5341a1868d172"
+    },
+    {
+      "path": "src/utils/errorCode.js",
+      "group": "F2",
+      "sha256": "197cb29f5dc51ed5a7ed67d64006eed11d4b2099e697f3c298bcfefbe858c3f0"
+    },
+    {
+      "path": "src/utils/eventBus.js",
+      "group": "F2",
+      "sha256": "0e267213660547a4e7690378042032ab039f9da6d4fdea1b0182d93699a27a76"
+    },
+    {
+      "path": "src/utils/index.js",
+      "group": "F2",
+      "sha256": "430fb211257ec0fcec223c352c7888ca3f181d48703700a95cfc0dd8f32f2ed2"
+    },
+    {
+      "path": "src/utils/jsencrypt.js",
+      "group": "F2",
+      "sha256": "87c1df57623849dcba74842103a6c4b04612f4f8a6bf0eff77fe34211a7cdf18"
+    },
+    {
+      "path": "src/utils/menu.js",
+      "group": "F2",
+      "sha256": "f30c8e606410ec7ff7652dc8f7aec5887efa87451dd7cb08247cd5978e25460a"
+    },
+    {
+      "path": "src/utils/permission.js",
+      "group": "F2",
+      "sha256": "464e6094d981d87206ac0dce2d083910901fa73f1b6a01e7d0c055ce0bbaaf60"
+    },
+    {
+      "path": "src/utils/richtext.js",
+      "group": "F2",
+      "sha256": "41242b82a743507aafbcbfef2e43c166385378527e549cf341362c0e5cd8afa5"
+    },
+    {
+      "path": "src/utils/scroll-to.js",
+      "group": "F2",
+      "sha256": "d86224d5f5f3d1c2d3b9d56a1abc91d1a565f350f63f9bec80eb8ae394d3f66a"
+    },
+    {
+      "path": "src/utils/theme.js",
+      "group": "F2",
+      "sha256": "843847795c5241da3bc259b11d85546c271cba6fced67c9ec4f8f31f1cc8e0a2"
+    },
+    {
+      "path": "src/utils/token.js",
+      "group": "F2",
+      "sha256": "fe5e00f8f39316fac30f1c61550e19134556d04ea5376fb9456c708f819e7b6a"
+    },
+    {
+      "path": "src/utils/validate.js",
+      "group": "F2",
+      "sha256": "a94bffdbb3cd916b642b8eea8f21ff2c2259beb3cfafada26f2b7cfd2fa1e263"
+    },
+    {
+      "path": "src/utils/download.ts",
+      "group": "F2",
+      "sha256": "421180d67090a387ef95bc589c7ad1a84fce95a2d00fab616fc39f147f9a9348"
+    },
+    {
+      "path": "src/utils/generator/config.js",
+      "group": "F2",
+      "sha256": "467460de64ec80a99d386e0f246a103e8b3cb71d0f3cac44abb7d62e4a50b048"
+    },
+    {
+      "path": "src/utils/generator/css.js",
+      "group": "F2",
+      "sha256": "0eef4019b3a3cb7fa4437d602cb04c4f229b42e073a0f849d5d1b821175bfcd1"
+    },
+    {
+      "path": "src/utils/generator/drawingDefalut.js",
+      "group": "F2",
+      "sha256": "bed162f96f598c73f4439f8a4b69e7060af2a692878e61d703e0f906ececd888"
+    },
+    {
+      "path": "src/utils/generator/js.js",
+      "group": "F2",
+      "sha256": "cef8b286e4a912c942c4ffec19d7fc5d6434f2a54d52488508c20ee9ccc12858"
+    },
+    {
+      "path": "src/plugins/auth.js",
+      "group": "F2",
+      "sha256": "9994a748de67aae97d3ad723eba10b23570157c209fb0a1b68761d9a82285a27"
+    },
+    {
+      "path": "src/plugins/cache.js",
+      "group": "F2",
+      "sha256": "dcff458aa6fc6e0d6806bb19e0877383839de9b4f033e333aa9f8faf3c87897c"
+    },
+    {
+      "path": "src/directive/index.js",
+      "group": "F2",
+      "sha256": "a2cf53abce4af1e4c87f2bc5f04d33f4a05e36af035e386f2dda90d52afbfeda"
+    },
+    {
+      "path": "src/directive/common/copyText.js",
+      "group": "F2",
+      "sha256": "11531d1ae386f231e4303bd9597018a0ce64c74dea82cdd0aa55c799f4fc0bf2"
+    },
+    {
+      "path": "src/directive/permission/hasPermi.js",
+      "group": "F2",
+      "sha256": "0dec7630fa116a46d0c41e065a51e49120a6aba75b3d793a9c3c758eca36ad74"
+    },
+    {
+      "path": "src/directive/permission/hasRole.js",
+      "group": "F2",
+      "sha256": "91af56458a473beb9aa23abc3eeb8b7c887b1dee0446429f6b4dd17b9653c9d2"
+    },
+    {
+      "path": "src/utils/request.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/utils/user.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/utils/dict.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/utils/dynamicTitle.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/utils/iconMap.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/utils/tokenChecker.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/utils/generator/render.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/plugins/index.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/plugins/modal.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/plugins/download.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/plugins/tab.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/store/index.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/store/modules/user.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/store/modules/permission.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/store/modules/settings.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/store/modules/dict.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/store/modules/tagsView.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    },
+    {
+      "path": "src/store/modules/app.js",
+      "group": "ADAPTER",
+      "sha256": ""
+    }
+  ]
+}

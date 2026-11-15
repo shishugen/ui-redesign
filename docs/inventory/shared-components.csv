@@ -1,0 +1,44 @@
+﻿id,old_path,new_path,layer,status,note
+S001,src/components/AiAssistant/ChatHeader.vue,src/components/AiAssistant/ChatHeader.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S002,src/components/AiAssistant/ChatInput.vue,src/components/AiAssistant/ChatInput.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S003,src/components/AiAssistant/ChatMessages.vue,src/components/AiAssistant/ChatMessages.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S004,src/components/AiAssistant/ChatPanelRefactored.vue,src/components/AiAssistant/ChatPanelRefactored.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S005,src/components/AiAssistant/FloatingButton.vue,src/components/AiAssistant/FloatingButton.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S006,src/components/AiAssistant/HistoryPanel.vue,src/components/AiAssistant/HistoryPanel.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S007,src/components/AiAssistant/ImagePreview.vue,src/components/AiAssistant/ImagePreview.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S008,src/components/AiAssistant/MarkdownRenderer.vue,src/components/AiAssistant/MarkdownRenderer.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S009,src/components/AiAssistant/index.vue,src/components/AiAssistant/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S010,src/components/AiAutoGenerate/index.vue,src/components/AiAutoGenerate/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S011,src/components/AiChapter/components/ManualGenerateDialog.vue,src/components/AiChapter/components/ManualGenerateDialog.vue,component,implemented,B02 第五批同名同路径新写：antd v4 等价实现，保留旧组件 props/回调契约
+S012,src/components/AiChapter/components/chooseChapter.vue,src/components/AiChapter/components/chooseChapter.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S013,src/components/AiChapter/components/choosePromptRule.vue,src/components/AiChapter/components/choosePromptRule.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S014,src/components/AiChapter/index.vue,src/components/AiChapter/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S015,src/components/Breadcrumb/index.vue,src/components/Breadcrumb/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S016,src/components/CascaderPlus/index.vue,src/components/CascaderPlus/index.vue,component,implemented,B02 第五批同名同路径新写：antd v4 等价实现，保留旧组件 props/回调契约
+S017,src/components/DesktopGuacamole/guacamole copy.vue,src/components/DesktopGuacamole/guacamole copy.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S018,src/components/DesktopGuacamole/guacamole.vue,src/components/DesktopGuacamole/guacamole.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S019,src/components/DesktopTerminal/index.vue,src/components/DesktopTerminal/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S020,src/components/DictSpan/index.vue,src/components/DictSpan/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S021,src/components/DictTag/index.vue,src/components/DictTag/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S022,src/components/EditorTinymce/index.vue,src/components/EditorTinymce/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S023,src/components/FilePreview/index.vue,src/components/FilePreview/index.vue,component,implemented,随 P049-A：kkfileview + fdfs 配置拼预览地址，补空态与 aria（B02 第七批）
+S024,src/components/IframeHtml/index.vue,src/components/IframeHtml/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S025,src/components/ImgCropper/index.vue,src/components/ImgCropper/index.vue,component,implemented,B02 第五批同名同路径新写：antd v4 等价实现，保留旧组件 props/回调契约
+S026,src/components/Pagination/index.vue,src/components/Pagination/index.vue,component,implemented,B02 第五批同名同路径新写：antd v4 等价实现，保留旧组件 props/回调契约
+S027,src/components/ParentView/index.vue,src/components/ParentView/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S028,src/components/Preview/index.vue,src/components/Preview/index.vue,component,implemented,B02 第八批：富文本预览 + 标题目录导航 + 代码块复制（v4 token 重写）
+S029,src/components/Screenfull/index.vue,src/components/Screenfull/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S030,src/components/SocketSshTerminal/index.vue,src/components/SocketSshTerminal/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S031,src/components/Terminal/index.vue,src/components/Terminal/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S032,src/components/TopNav/index.vue,src/components/TopNav/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S033,src/components/UploadChunk/index.vue,src/components/UploadChunk/index.vue,component,implemented,随 P049-A：vue-simple-uploader 分片续传，文案过 i18n（B02 第七批）
+S034,src/components/VideoPlay/index.vue,src/components/VideoPlay/index.vue,component,implemented,随 P049-A：longze-vue3-video-player 包装，回调整形不变（B02 第七批）
+S035,src/components/WangEditor/index.vue,src/components/WangEditor/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S036,src/components/WindowContainer/index.vue,src/components/WindowContainer/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S037,src/components/iFrame/index.vue,src/components/iFrame/index.vue,component,pending,公共组件：全新设计但保持原文件名与目录
+S038,src/layout/components/AppMain.vue,src/layout/components/AppMain.vue,layout,pending,公共组件：全新设计但保持原文件名与目录
+S039,src/layout/components/IframeToggle/index.vue,src/layout/components/IframeToggle/index.vue,layout,pending,公共组件：全新设计但保持原文件名与目录
+S040,src/layout/components/InnerLink/index.vue,src/layout/components/InnerLink/index.vue,layout,pending,公共组件：全新设计但保持原文件名与目录
+S041,src/layout/components/Navbar.vue,src/layout/components/Navbar.vue,layout,pending,公共组件：全新设计但保持原文件名与目录
+S042,src/layout/components/Sidebar/index.vue,src/layout/components/Sidebar/index.vue,layout,pending,公共组件：全新设计但保持原文件名与目录
+S043,src/layout/index.vue,src/layout/index.vue,layout,pending,公共组件：全新设计但保持原文件名与目录

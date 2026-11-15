@@ -1,0 +1,55 @@
+{
+  "views_vue": 239,
+  "page_entries": 69,
+  "inline_components": 170,
+  "static_route_views": 24,
+  "shared_components": 37,
+  "layout_views": 6,
+  "sfc_total": 282,
+  "api_js": 102,
+  "api_exports": 902,
+  "api_urls": 892,
+  "frozen_F1": 102,
+  "frozen_F2": 25,
+  "adapter": 18,
+  "new_project_views_existing": 9,
+  "new_project_api_existing": 5,
+  "batches": [
+    {
+      "batch": "B01",
+      "priority": "P0",
+      "pages": 10,
+      "sfc": 23
+    },
+    {
+      "batch": "B02",
+      "priority": "P1",
+      "pages": 19,
+      "sfc": 73
+    },
+    {
+      "batch": "B03",
+      "priority": "P2",
+      "pages": 17,
+      "sfc": 76
+    },
+    {
+      "batch": "B04",
+      "priority": "P3",
+      "pages": 12,
+      "sfc": 38
+    },
+    {
+      "batch": "B05",
+      "priority": "P4",
+      "pages": 9,
+      "sfc": 26
+    },
+    {
+      "batch": "B06",
+      "priority": "P5",
+      "pages": 2,
+      "sfc": 3
+    }
+  ]
+}
